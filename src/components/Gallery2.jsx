@@ -23,8 +23,8 @@ render() {
                 
              {this.state.film.filter((element,index)=> index<6).map((film,index) => 
 
-                <div  className= ' col-12 col-md-4 col-xl-2 gap-5 '>
-                    <img  id="imgGallery"  key={index} style={{maxWidth:"300px" , maxHeight: "200px", objectFit:"cover"}} src={film.Poster} alt="" />
+                <div  className= 'my-2 col-6 col-md-4 col-xl-2 gap-5 '>
+                    <img  id="imgGallery"  key={index} style={{ maxHeight: "300px"}} src={film.Poster} alt="" />
                 </div>
              
              
