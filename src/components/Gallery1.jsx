@@ -28,9 +28,10 @@ render() {
              <>
                 
                  <div  className= 'my-2 mx-auto col-6 col-md-4 col-xl-2 gap-5 '>
-                    <img  id="imgGallery"  key={index} style={{ maxHeight: "300px"}} src={film.Poster} alt="" />
+                    <img   id="imgGallery"  key={index} style={{ maxHeight: "250px"}} src={film.Poster} alt="" />
                     
                 </div> 
+               
                  
              </>
              

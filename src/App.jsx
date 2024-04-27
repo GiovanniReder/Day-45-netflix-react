@@ -6,6 +6,7 @@ import MyFooter from "./components/MyFooter";
 import Gallery1 from "./components/Gallery1";
 import Gallery2 from "./components/Gallery2";
 import Gallery3 from "./components/Gallery3";
+import Profile from "./components/Profile";
 function App() {
   return (
     <div className=" bg-dark">
@@ -57,12 +58,12 @@ function App() {
       <div className='mb-5 container d-flex flex-wrap'>
       <Gallery1 />
       </div>
-      <p className='text-start ms-5  fs-3  text-white'>Watch it Again</p>
+      <p className='text-start ms-5 d-none d-md-flex  fs-3  text-white'>Watch it Again</p>
       <div className= 'mb-5 container d-flex flex-wrap'>
         <Gallery2 />
       </div>
       
-      <p className='text-start ms-5  fs-3  text-white'>New Releases</p>
+      <p className='text-start ms-5 d-none d-md-flex  fs-3  text-white'>New Releases</p>
       <div className= 'mb-5 container d-flex flex-wrap'>
         <Gallery3 />
       </div>
